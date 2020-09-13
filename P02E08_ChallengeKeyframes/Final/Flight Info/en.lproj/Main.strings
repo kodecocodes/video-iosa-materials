@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Fl. Nr."; ObjectID = "4nT-Kh-9b6"; */
+"4nT-Kh-9b6.text" = "Fl. Nr.";
+
+/* Class = "UILabel"; text = "Gate nr."; ObjectID = "D15-jf-ADn"; */
+"D15-jf-ADn.text" = "Gate nr.";
+
+/* Class = "UILabel"; text = "DEP"; ObjectID = "F05-Lv-e4P"; */
+"F05-Lv-e4P.text" = "DEP";
+
+/* Class = "UILabel"; text = "Flight Summary"; ObjectID = "iJB-W1-2Kp"; */
+"iJB-W1-2Kp.text" = "Flight Summary";
+
+/* Class = "UILabel"; text = "Gate"; ObjectID = "kRa-mx-fW5"; */
+"kRa-mx-fW5.text" = "Gate";
+
+/* Class = "UILabel"; text = "Flight"; ObjectID = "lm7-le-tjG"; */
+"lm7-le-tjG.text" = "Flight";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "o46-P0-lk3"; */
+"o46-P0-lk3.text" = "Status";
+
+/* Class = "UILabel"; text = "ARR"; ObjectID = "ztY-G1-uag"; */
+"ztY-G1-uag.text" = "ARR";
