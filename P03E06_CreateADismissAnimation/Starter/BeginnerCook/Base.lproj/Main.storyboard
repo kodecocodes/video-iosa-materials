@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="BeginnerCook" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.5499999999999996" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="txz-nY-nRC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1000" contentMode="scaleToFill" directionalLockEnabled="YES" alwaysBounceHorizontal="YES" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tj-Ma-gJv">
+                                <rect key="frame" x="0.0" y="541.33333333333337" width="375" height="270.66666666666663"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ewv-Gw-gcX">
+                                        <rect key="frame" x="0.0" y="0.0" width="1000" height="270.66666666666669"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="1000" placeholder="YES" id="0Ym-bJ-Ilz"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="PHE-Mi-FNr" firstAttribute="bottom" secondItem="ewv-Gw-gcX" secondAttribute="bottom" id="0PI-4M-j4F"/>
+                                    <constraint firstItem="ewv-Gw-gcX" firstAttribute="width" secondItem="PHE-Mi-FNr" secondAttribute="width" id="Os8-k4-MfC"/>
+                                    <constraint firstItem="ewv-Gw-gcX" firstAttribute="trailing" secondItem="PHE-Mi-FNr" secondAttribute="trailing" id="WSc-kd-HLw"/>
+                                    <constraint firstItem="ewv-Gw-gcX" firstAttribute="leading" secondItem="PHE-Mi-FNr" secondAttribute="leading" id="cfE-rN-NUU"/>
+                                    <constraint firstItem="ewv-Gw-gcX" firstAttribute="height" secondItem="PHE-Mi-FNr" secondAttribute="height" id="cux-Dr-PhO"/>
+                                    <constraint firstItem="ewv-Gw-gcX" firstAttribute="height" secondItem="cyc-63-FvY" secondAttribute="height" id="faj-Pa-fIL"/>
+                                    <constraint firstItem="ewv-Gw-gcX" firstAttribute="top" secondItem="PHE-Mi-FNr" secondAttribute="top" id="pWL-UY-QeB"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="PHE-Mi-FNr"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="cyc-63-FvY"/>
+                            </scrollView>
+                            <textView opaque="NO" userInteractionEnabled="NO" contentMode="center" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePZ-v5-lFK">
+                                <rect key="frame" x="18.666666666666657" y="162.33333333333334" width="337.66666666666674" height="365.33333333333326"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">In general use, herbs are any plants used for flavoring, food, medicine, or perfume. 
+
+Culinary use typically distinguishes herbs as referring to the leafy green parts of a plant (either fresh or dried), from a "spice", a product from another part of the plant, including seeds, berries, bark, roots and fruits.</string>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beginner Cook" textAlignment="center" lineBreakMode="clip" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="xDX-Uu-2Ap">
+                                <rect key="frame" x="0.0" y="40.666666666666664" width="375" height="121.66666666666669"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="40"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="1" height="2"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xDX-Uu-2Ap" firstAttribute="height" secondItem="kh9-bI-dsS" secondAttribute="height" multiplier="0.15" id="4de-Fe-RFM"/>
+                            <constraint firstItem="ePZ-v5-lFK" firstAttribute="height" secondItem="kh9-bI-dsS" secondAttribute="height" multiplier="0.45" id="4hL-lm-gQ5"/>
+                            <constraint firstItem="jcn-BR-TDq" firstAttribute="centerX" secondItem="ePZ-v5-lFK" secondAttribute="centerX" id="4tq-GK-Qvi"/>
+                            <constraint firstItem="xDX-Uu-2Ap" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" id="IzJ-5d-dNp"/>
+                            <constraint firstItem="txz-nY-nRC" firstAttribute="centerX" secondItem="jcn-BR-TDq" secondAttribute="centerX" id="K2R-Jt-7db"/>
+                            <constraint firstItem="txz-nY-nRC" firstAttribute="height" secondItem="kh9-bI-dsS" secondAttribute="height" id="KvI-ko-2eD"/>
+                            <constraint firstItem="xDX-Uu-2Ap" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" multiplier="0.25" id="LSM-hq-uEa"/>
+                            <constraint firstItem="7tj-Ma-gJv" firstAttribute="height" secondItem="kh9-bI-dsS" secondAttribute="height" multiplier="1/3" id="Lbb-Db-lb1"/>
+                            <constraint firstItem="txz-nY-nRC" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="Q76-xI-4Qf"/>
+                            <constraint firstItem="ePZ-v5-lFK" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" multiplier="0.9" id="US8-Tb-jA6"/>
+                            <constraint firstItem="7tj-Ma-gJv" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="Vlj-yl-upe"/>
+                            <constraint firstItem="ePZ-v5-lFK" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" multiplier="0.85" id="a5Q-26-4m0"/>
+                            <constraint firstAttribute="trailing" secondItem="7tj-Ma-gJv" secondAttribute="trailing" id="aVa-5d-IaJ"/>
+                            <constraint firstItem="txz-nY-nRC" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" id="bwh-dr-wle"/>
+                            <constraint firstItem="7tj-Ma-gJv" firstAttribute="bottom" secondItem="kh9-bI-dsS" secondAttribute="bottom" id="isc-Po-Iz9"/>
+                            <constraint firstItem="jcn-BR-TDq" firstAttribute="centerX" secondItem="xDX-Uu-2Ap" secondAttribute="centerX" id="zI3-gB-fQa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jcn-BR-TDq"/>
+                    </view>
+                    <connections>
+                        <outlet property="background" destination="txz-nY-nRC" id="8yw-gf-Dn7"/>
+                        <outlet property="stackView" destination="ewv-Gw-gcX" id="QJ4-ak-NzC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="293.60000000000002" y="363.54679802955667"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="320" height="568"/>
+    </resources>
+</document>
